@@ -13,8 +13,12 @@
 			Who am i? See <a href="https://stephenajulu.com">here</a>
 
 		<p class="author__links">
-			<a href="//twitter.com/stephenajulu">Follow on Twitter</a>
-			<a href="https://github.com/stephenajulu">GitHub</a>
+		<a href="//twitter.com/stephenajulu"><g-image alt="twitter" src="~/assets/images/twitter.png" width="30" immediate="true"/></a>
+      		<a href="//dev.to/stephenajulu"><g-image alt="dev" src="~/assets/images/dev.png" width="30" immediate="true"/></a>
+                <a href="//instagram.com/stephenajulu"><g-image alt="instagram" src="~/assets/images/instagram.png" width="30" immediate="true"/></a>
+       		<!-- <a href="/rss.xml"><g-image alt="rss" src="~/assets/images/rss.png" width="30" immediate="true"/></a> -->
+      		<a href="//github.com/stephenajulu"><g-image alt="github" src="~/assets/images/github.png" width="30" immediate="true"/></a>
+      		<a href="//linkedin.com/in/stephenajulu"><g-image alt="linkedin" src="~/assets/images/linkedin.png" width="30" immediate="true"/></a>
 		</p>
 
 	</div>
