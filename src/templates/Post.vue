@@ -33,12 +33,14 @@
 import PostMeta from '~/components/PostMeta'
 import PostTags from '~/components/PostTags'
 import Author from '~/components/Author.vue'
+import Newsletter from '~/components/Newsletter.vue'
 
 export default {
   components: {
     Author,
     PostMeta,
-    PostTags
+    PostTags,
+    Newsletter
   },
   metaInfo () {
     return {
@@ -127,5 +129,9 @@ query Post ($id: ID!) {
 
 .post-author {
   margin-top: calc(var(--space) / 2);
+}
+
+.post-newsletter {
+  padding: 0;
 }
 </style>
