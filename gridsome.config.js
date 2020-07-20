@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Netlify CMS Gridsome starter template',
-  siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Netlify CMS for content.',
+  siteName: 'Ajulu s MicroBlog',
+  siteDescription: 'Personal MicroBlog for Stephen Ajulu. A place to share thoughts, ideas, tips, tricks and short articles',
 
   templates: {
     Post: '/:title',
@@ -24,6 +24,7 @@ module.exports = {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'Tag',
+            route: '/tag/:id',
             create: true
           }
         }
