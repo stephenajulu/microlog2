@@ -1,5 +1,7 @@
 <template>
 	<div class="author">
+	
+<!-- <g-image alt="Author image" class="author__image" src="~/assets/images/author.png" width="180" height="180" immediate="true"/> -->
 
 		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metadata.siteName }}
@@ -8,7 +10,7 @@
 		<p class="author__intro">
 			Hi There!
 		<br>
-			How are you? My name is Stephen Ajulu and welcome to my microblog(personal twitter) where i share my thoughts, tips, ideas, logs, logics, and more.
+			How are you? My name is Stephen Ajulu and welcome to my microblog where i share my thoughts, ideas, progress, logic, logs and more.
 			<br>
 			Who am i? See <a href="https://stephenajulu.com">here</a>
 
