@@ -1,18 +1,20 @@
 <template>
 	<div class="author">
 	
-<!-- <g-image alt="Author image" class="author__image" src="~/assets/images/author.png" width="180" height="180" immediate="true"/> -->
+<!-- <g-image alt="Author image" class="author__image" src="~/assets/images/me.png" width="180" height="180" immediate="true"/> -->
 
 		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metadata.siteName }}
 		</h1>
 
 		<p class="author__intro">
+		<br>
 			Hi There!
 		<br>
 			How are you? My name is Stephen Ajulu and welcome to my microblog where i share my thoughts, ideas, progress, logic, logs and more.
 			<br>
-			Who am i? See <a href="https://stephenajulu.com">here</a>
+			Want to know more? Go visit <a href="https://stephenajulu.com">my personal portfolio website</a>
+			</p>
 
 		<p class="author__links">
 		<a href="//twitter.com/stephenajulu"><g-image alt="twitter" src="~/assets/images/twitter.png" width="30" immediate="true"/></a>
